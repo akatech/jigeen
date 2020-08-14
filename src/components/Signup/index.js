@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import "./styles.scss";
 import { auth, handleUserProfile } from "./../../firebase/utils";
 import FormInput from "./../forms/FormInput";
+
 import Button from "./../forms/Button";
-import Buttons from "./../forms/Button";
 
 const initialState = {
   displayName: "",
@@ -104,7 +104,7 @@ class Signup extends Component {
                 onChange={this.handleChange}
               />
 
-              <Buttons type="submit">Rgister</Buttons>
+              <Button type="submit">Rgister</Button>
             </form>
           </div>
         </div>

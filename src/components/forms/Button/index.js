@@ -2,7 +2,7 @@ import React from 'react'
 import './styles.scss'
 
 
-const Buttons = ({ children, ...otherProps }) => {
+const Button = ({ children, ...otherProps }) => {
     return (
         <button className='btn' {...otherProps}> 
            {children}
@@ -11,4 +11,4 @@ const Buttons = ({ children, ...otherProps }) => {
 }
 
 
-export default Buttons
+export default Button
